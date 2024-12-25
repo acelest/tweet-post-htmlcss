@@ -1,0 +1,92 @@
+body {
+  background: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background: #000;
+  color: white;
+  width: 300px;
+  height: auto;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  bottom: 2px;
+  margin: 0 4px;
+}
+
+/* name */
+.name {
+  font-size: 10px;
+  font-weight: bold;
+}
+/* username */
+.username {
+  font-size: 0.6rem;
+  color: #888;
+}
+
+/* tweet */
+.tweet {
+  padding-top: 10px;
+  position: relative;
+  font-size: 10px;
+}
+
+/* date */
+.date {
+  font-size: 10px;
+  color: rgb(161, 161, 161);
+}
+
+/* tweet-for */
+.tweet-for {
+  color: rgb(150, 150, 150);
+
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+.tag {
+  color: rgb(27, 162, 240);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.action {
+  display: flex;
+  font-size: 3px;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.action button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.action-btn {
+  /* background: gray; */
+  color: white;
+  border: none;
+  cursor: pointer;
+  /* padding: 5px 10px; */
+  border-radius: 5px;
+  font-size: 10px;
+}
